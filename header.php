@@ -10,4 +10,12 @@
     <div>
         <h3> Gestor de Archivos </h3>
     </div>
+    <?php
+        if ( isset( $_SESSION[ 'name' ] ) ) {
+            echo '<div>';
+            echo '<p> Welcome, ' . $_SESSION[ 'name' ] . '</p>';
+            echo '<a href="logout.php"> Logout </a>';
+            echo '</div>';
+        }
+    ?>
 </nav>

@@ -24,4 +24,5 @@
         value="1234"
     />
     <button> Register </button>
+    <a href="login.php"> I have account </a>
 </form>

@@ -1,5 +1,5 @@
 
-<form>
+<form action="actions/loginUsersAction.php" method="post">
     <input
         type="email"
         name="email"

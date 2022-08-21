@@ -43,10 +43,12 @@
             
             if ( $result ) {
                 echo '<p>User created successfully.</p>';
-                header( 'Location: login.php' );
+                echo '<small> Redirecting to login page </small>'
+                header( "refresh:5;url=../login.php" );
             } else {
                 echo '<p>Error creating user.</p>';
-                header( 'Location: register.php' );
+                echo '<small> Redirecting to login page </small>'
+                header( "refresh:5;url=../register.php" );
             }
         }
 
