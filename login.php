@@ -4,10 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Gestor de Archivos EMI </title>
+        <title> Login </title>
     </head>
     <body>
         <?php include 'connection.php' ?>
         <?php include 'header.php' ?>
+        <?php include 'views/loginUsers.php' ?>
     </body>
 </html>
