@@ -8,7 +8,6 @@
         <title> Register </title>
     </head>
     <body>
-        <?php include 'connection.php' ?>
         <?php include 'header.php' ?>
         <?php include 'views/registerUsers.php' ?>
         

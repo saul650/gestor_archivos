@@ -7,7 +7,6 @@
         <title> Login </title>
     </head>
     <body>
-        <?php include 'connection.php' ?>
         <?php include 'header.php' ?>
         <?php include 'views/loginUsers.php' ?>
     </body>

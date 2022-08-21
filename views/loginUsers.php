@@ -11,6 +11,6 @@
         placeholder="Password"
     />
     <button> Login </button>
-    <a href="/register.php"> I don't have account </a>
+    <a href="register.php"> I don't have account </a>
 </form>
 

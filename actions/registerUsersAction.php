@@ -1,5 +1,6 @@
 
 <?php
+    include '../models/User.php';
     $fullName = $_POST[ 'fullName' ];
     $email = $_POST[ 'email' ];
     $password = $_POST[ 'password' ];
